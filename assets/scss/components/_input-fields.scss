@@ -1,0 +1,41 @@
+// Inputs styles
+
+input:not([type]),
+input[type=text]:focus:not(.browser-default),
+input[type=password]:focus:not(.browser-default),
+input[type=email]:focus:not(.browser-default),
+input[type=url]:focus:not(.browser-default),
+input[type=time]:focus:not(.browser-default),
+input[type=date]:focus:not(.browser-default),
+input[type=datetime]:focus:not(.browser-default),
+input[type=datetime-local]:focus:not(.browser-default),
+input[type=tel]:focus:not(.browser-default),
+input[type=number]:focus:not(.browser-default),
+input[type=search]:focus:not(.browser-default),
+textarea.materialize-textarea:focus {
+    border-bottom: 1px solid $secondary-color-darken !important;
+    -webkit-box-shadow: 0 1px 0 0 $secondary-color-darken !important;
+    box-shadow: 0 1px 0 0 $secondary-color-darken !important;
+}
+.input-field .prefix~input,
+.input-field .prefix~textarea,
+.input-field .prefix~label,
+.input-field .prefix~.validate~label,
+.input-field .prefix~.helper-text,
+.input-field .prefix~.autocomplete-content {
+
+}
+
+.input-field label.active {
+    color: $secondary-color-darken !important;
+}
+
+
+.input-field .prefix.active {
+    color: $secondary-color-darken !important;
+}
+
+
+.input-field .prefix {
+    color: #9e9e9e;
+}
