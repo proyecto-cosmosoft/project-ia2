@@ -182,7 +182,7 @@
 
 
 
- 		public function getCliente(){//para consultar todos lo registros de una tabla
+ 	/*	public function getCliente(){//para consultar todos lo registros de una tabla
         	
 		        $query=$this->db()->query("SELECT 
 		        							pedidos.codigo_pedido,
@@ -244,12 +244,12 @@
 		        return $resulSet;
 
 
-		    }
+		    }*/
 
 
 }
     
-
+    
 
 
     

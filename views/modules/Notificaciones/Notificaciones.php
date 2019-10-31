@@ -116,17 +116,17 @@
         </div>
 
 <!--Notificaciones de Cliente por Contactar-->
-
+  <!--  
 <div class="section">
             <div class="container">
                 <div class="row">
-                     <?php if (empty($allCliente)){ ?>
+                     <?php #if (empty($allCliente)){ ?>
                         <h2 class="center-align">Ningún Cliente por Contactar.</h2>
                    
                     
-                    <!-- Cards -->
-                    <?php }else foreach ($allCliente as $cliente): ?>
-                    <?php if($cliente->fecha_alerta == $cliente->fecha_hoy):?>
+                   
+                    <?php #}else foreach ($allCliente as $cliente): ?>
+                    <?php #if($cliente->fecha_alerta == $cliente->fecha_hoy):?>
                     <div class="col s12 m6 l6 xl6">
                         <div class="card grey darken-4">
                             <div class="card-image">
@@ -134,29 +134,29 @@
                             </div>
                             <div class="card-content white-text">
                                 <span class="card-title"><b><h5>Cliente Pendiente</b></h5></span>
-                                <input type="hidden" name="" value="<?php echo $cliente->tipo_documento_cliente?>">
-                                <p><h8><b>Cliente: </b><?php echo $cliente->nombre_cliente?></h8></p>
-                                <p><h8><b>Representante: </b> <?php echo $cliente->representante_cliente ?></h8></p>
-                                <p><h8><b>N° Telefonico: </b> <?php echo $cliente->telefono_cliente ?></h8></p>
-                                <p><h8><b>Fecha Consulta: </b><?php echo $cliente->fecha_pedido?></h8></p>
+                                <input type="hidden" name="" value="<?php # echo $cliente->tipo_documento_cliente?>">
+                                <p><h8><b>Cliente: </b><?php #echo $cliente->nombre_cliente?></h8></p>
+                                <p><h8><b>Representante: </b> <?php #echo $cliente->representante_cliente ?></h8></p>
+                                <p><h8><b>N° Telefonico: </b> <?php #echo $cliente->telefono_cliente ?></h8></p>
+                                <p><h8><b>Fecha Consulta: </b><?php #echo $cliente->fecha_pedido?></h8></p>
                             </div>
                             <div class="card-action">
                                 <a href="">Llamado</a>
-                                <p><a href="<?php echo Helpers::url('Notificacion','detailsCliente')."/".$cliente->cedula_cliente?>">Detalles Consulta</a></p>
+                                <p><a href="<?php #echo Helpers::url('Notificacion','detailsCliente')."/".$cliente->cedula_cliente?>">Detalles Consulta</a></p>
                             </div>
                         </div>
                     </div>
 
-                <?php else: ?>
+                <?php #else: ?>
                     
-                <?php endif; ?>
+                <?php #endif; ?>
 
 
 
-            <?php endforeach;?>
+            <?php #endforeach;?>
                 </div>
             </div>
-        </div>
+        </div>-->
         
     </main>
 

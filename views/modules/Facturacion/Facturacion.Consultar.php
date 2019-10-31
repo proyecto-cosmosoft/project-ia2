@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col s12 breadcrumb-nav left-align">
                     <a href="<?php echo Helpers::url('Home','index'); ?>" class="breadcrumb">Inicio</a>
-                    <a href="<?php echo Helpers::url('Factura','index'); ?>" class="breadcrumb">Facturación de Ventas</a>
+                    <a href="<?php echo Helpers::url('Factura','index'); ?>" class="breadcrumb">Lista de Facturas</a>
                     <a href="<?php echo Helpers::url('Factura','getAll'); ?>" class="breadcrumb">Consultar Facturas</a>
                 </div>
             </div>

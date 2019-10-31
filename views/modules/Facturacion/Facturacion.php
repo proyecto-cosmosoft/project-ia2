@@ -24,7 +24,7 @@
                     <a href="<?php echo Helpers::url('Factura','index'); ?>" class="breadcrumb">Facturación de Ventas</a>
                 </div>
                 <div class="col s12 m6">
-                    <a href="<?php echo Helpers::url('Factura','getAll'); ?>" class="btn-app green darken-3">
+                    <a href="<?php echo Helpers::url('Factura','getAllFactura'); ?>" class="btn-app green darken-3">
                         <i class="icon-playlist_add_check"></i>
                         <span>Consultar Facturas</span>
                     </a>

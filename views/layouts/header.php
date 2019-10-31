@@ -46,7 +46,7 @@
             <li><a href="<?php echo Helpers::url('Cliente','index'); ?>"><i class="icon-contact_phone left"></i>Gestionar Clientes</a></li>
             <li><a href="<?php echo Helpers::url('Pedido','index'); ?>"><i class="icon-library_books left"></i>Gestionar Pedidos</a></li>
             <li><a href="<?php echo Helpers::url('Factura','index'); ?>"><i class="icon-event_available left"></i>Facturación de Ventas</a></li>
-            <li><a href="<?php echo Helpers::url('Reporte','index'); ?>"><i class="icon-report left"></i>Gestionar Reportes</a></li>
+            <li><a href="<?php echo Helpers::url('Factura','reportesIndex'); ?>"><i class="icon-report left"></i>Gestionar Reportes</a></li>
             <li class="no-padding">
                 <ul class="collapsible collapsible-accordion">
                     <li class="bold">

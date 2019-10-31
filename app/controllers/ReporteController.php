@@ -5,7 +5,7 @@
 		}
 
 		public function index() {
-			$this->view('Reportes/Reportes');
+			
 		}
 
 		public function orders() {

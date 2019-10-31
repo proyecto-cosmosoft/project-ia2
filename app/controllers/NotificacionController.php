@@ -9,8 +9,8 @@
 			$noti = new Notificacion(); // Instancia un objeto
             $allNoti = $noti->getPedido();
             $allProdu = $noti->getProducto(); 
-            $allCliente = $noti->getCliente();
-			$this->view('Notificaciones/Notificaciones',['allNoti' => $allNoti, 'allProdu' => $allProdu, 'allCliente' => $allCliente]);
+            
+			$this->view('Notificaciones/Notificaciones',['allNoti' => $allNoti, 'allProdu' => $allProdu]);
         	
 		
 		}
@@ -48,7 +48,7 @@
 			}
 		}
 
-			//Clientes
+			/*/Clientes
 		public function detailsCliente() {
 			
 			if (isset($_GET["id"])) {
@@ -62,7 +62,7 @@
             $this->view('Notificaciones/Notificaciones.Cliente',['result' => $result]);
 			
 			}
-		}
+		}*/
 		
 
 

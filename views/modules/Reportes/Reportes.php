@@ -21,22 +21,22 @@
             <div class="row">
                 <div class="col s12 breadcrumb-nav left-align">
                     <a href="<?php echo Helpers::url('Home','index'); ?>" class="breadcrumb">Inicio</a>
-                    <a href="<?php echo Helpers::url('Reporte','index'); ?>" class="breadcrumb">Reportes</a>
+                    <a href="<?php echo Helpers::url('Factura','reportesIndex'); ?>" class="breadcrumb">Reportes</a>
                 </div>
                 <div class="col s12 m4">
-                    <a href="<?php echo Helpers::url('Reporte',''); ?>" class="btn-app pink">
+                    <a href="<?php echo Helpers::url('Factura','getAllPedido'); ?>" class="btn-app pink">
                         <i class="icon-assignment"></i>
                         <span>Reporte de Pedidos</span>
                     </a>
                 </div>
                 <div class="col s12 m4">
-                    <a href="<?php echo Helpers::url('Reporte',''); ?>" class="btn-app green">
+                    <a href="<?php echo Helpers::url('Factura','getAllProducto'); ?>" class="btn-app green">
                         <i class="icon-style"></i>
                         <span>Reporte de Productos</span>
                     </a>
                 </div>
                 <div class="col s12 m4">
-                    <a href="<?php echo Helpers::url('Reporte',''); ?>" class="btn-app red">
+                    <a href="<?php echo Helpers::url('Factura','index'); ?>" class="btn-app red">
                         <i class="icon-receipt"></i>
                         <span>Reporte de Facturas</span>
                     </a>
